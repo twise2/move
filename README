@@ -1,0 +1,13 @@
+
+in order to run the server on port 8001, call
+
+gcc server.c
+./a.out 8001
+
+client running on port 8001 and pushing to logfile.txt is
+
+gcc client.c
+./a.out 8001 logfile.txt
+
+this will prompt you to send messages to store in the logfile, ctrl-c to exit.
+Each message will be stored when enter is pressed and it will return what is stored to you
